@@ -17,6 +17,8 @@ public class TestHeapSort {
                     ParentAndChilds[2] = arr[2 * i + 2];
                 resultLst.add(ParentAndChilds);
             }
+            else
+                break;
 
         }
         return resultLst;
