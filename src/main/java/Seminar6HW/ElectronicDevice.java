@@ -3,10 +3,10 @@ package Seminar6HW;
 
 public class ElectronicDevice {  // Класс "Электронное устройство" для раздела "Электроника" в абстрактном магазине
                                  // Можно обобщить на любой тип техники
-    String model;
-    String type;
-    String manufacturer;
-    int manufactNumber;
+    protected String model;
+    protected String type;
+    protected String manufacturer;
+    protected int manufactNumber;
 
     public ElectronicDevice(){
         this.type = getClass().getName();
